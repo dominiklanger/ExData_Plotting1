@@ -1,7 +1,8 @@
 
 ## loadAndPrepareData loads the file specified by the argument filePath, assuming that it
 ## contains the "Individual household electric power consumption Data Set".
-## It also tidies 
+## It also improves the format of dates and times. Finally it returs the subset of the original
+## data set that corresponds to Feb 1 to Feb 2, 2007. 
 
 loadAndPrepareData <- function(filePath) {     
       # Determine the data types to speed of loading...
